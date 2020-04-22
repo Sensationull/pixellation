@@ -2,17 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: hsl(0, 0%, 98%);
+}
+
+:root {
+  --font-fam: 'Poppins', sans-serif;
 }
 
 .main {
-  border: 1px solid red;
   margin: 10px;
+  font-family: var(--font-fam);
 }
 
 .reliable {
-  border: 1px solid blue;
   margin: 5px 350px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 200;
   font-size: 30px;
   color:hsl(234, 12%, 34%);
@@ -20,9 +23,7 @@
 }
 
 .powered {
-  border: 1px solid green;
   margin: 5px 350px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 30px;
   color:hsl(234, 12%, 34%);
@@ -30,10 +31,8 @@
 }
 
 .artificial {
-  border: 1px solid brown;
   margin: 5px;
   margin: 5px 250px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: hsl(229, 6%, 66%);
@@ -41,26 +40,80 @@
 }
 
 .fc-container {
-  border: 1px dashed black;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-evenly;
+  font-family: var(--font-fam);
+  /* border: 1px solid red; */
 }
 
 .card {
-  border: 1px groove red;
   margin: 5px;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px 3px hsl(229, 6%, 66%);
 }
 
 .card-title {
-  border: 1px dashed red;
-  margin: 5px;
+  margin: 25px 15px 15px 25px;
   color:hsl(234, 12%, 34%);
   font-size: 18px;
   font-weight: 600;
+  width: 250px;
 }
 
 .card-description {
-  border: 1px solid chartreuse;
-  margin: 5px;
+  margin: 0px 0px 0px 25px;
+  font-weight: 400;
+  font-size:12px;
+  color: hsl(229, 6%, 66%);
+  width: 250px;
+}
+.side-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-cards {
+  margin-top: 30px;
+}
+
+#card-one {
+  border: 2px solid hsl(180, 62%, 55%);
+  background-color:hsl(180, 62%, 55%);
+  border-radius: 25px;
+  width:100%;
+}
+
+#card-two {
+  border: 2px solid hsl(0, 78%, 62%);
+  background-color:hsl(0, 78%, 62%);
+  border-radius: 25px;
+  width:100%;
+}
+
+#card-three {
+  border: 2px solid hsl(34, 97%, 64%);
+  background-color:hsl(34, 97%, 64%);
+  border-radius: 25px;
+  width:100%;
+}
+
+#card-four {
+  border: 2px solid hsl(212, 86%, 64%);
+  background-color:hsl(212, 86%, 64%);
+  border-radius: 25px;
+  width:100%;
+}
+
+.icon {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.card-dos {
+  margin-bottom: 40px;
 }
