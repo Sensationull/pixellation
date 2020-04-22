@@ -39,3 +39,28 @@
   color: hsl(229, 6%, 66%);
   text-align:center;
 }
+
+.fc-container {
+  border: 1px dashed black;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px groove red;
+  margin: 5px;
+}
+
+.card-title {
+  border: 1px dashed red;
+  margin: 5px;
+  color:hsl(234, 12%, 34%);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-description {
+  border: 1px solid chartreuse;
+  margin: 5px;
+}
