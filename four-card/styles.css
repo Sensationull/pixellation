@@ -10,12 +10,14 @@
 }
 
 .main {
-  margin: 10px;
+  margin: auto;
+  max-width: 700px;
   font-family: var(--font-fam);
+  /* border: 1px solid red; */
 }
 
 .reliable {
-  margin: 5px 350px;
+  /* margin: 5px 350px; */
   font-weight: 200;
   font-size: 30px;
   color:hsl(234, 12%, 34%);
@@ -23,7 +25,7 @@
 }
 
 .powered {
-  margin: 5px 350px;
+  /* margin: 5px 350px; */
   font-weight: 600;
   font-size: 30px;
   color:hsl(234, 12%, 34%);
@@ -31,8 +33,8 @@
 }
 
 .artificial {
-  margin: 5px;
-  margin: 5px 250px;
+  /* margin: 5px; */
+  /* margin: 5px 250px; */
   font-weight: 400;
   font-size: 18px;
   color: hsl(229, 6%, 66%);
@@ -40,7 +42,8 @@
 }
 
 .fc-container {
-  margin-bottom: 15px;
+  /* playing with responsive design */
+  /* margin-bottom: auto;
   display: flex;
   justify-content: space-evenly;
   font-family: var(--font-fam);
@@ -116,4 +119,14 @@
 
 .card-dos {
   margin-bottom: 40px;
+}
+
+.four-cards {
+  margin:auto;
+  max-width: 1200px;
+  /* border: 1px solid blue; */
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: var(--font-fam);
 }
