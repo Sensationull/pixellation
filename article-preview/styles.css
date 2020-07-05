@@ -13,6 +13,48 @@
   font-weight: 500;
   height: 100%;
   width: 100%;
-  border: 1px solid black;
   position: fixed;
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 240px;
+  width: 240px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.component {
+  width: 725px;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: 240px;
+  width: 380px;
+  padding: 30px 40px 20px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.title {
+  height: 70px;
+  width: 285px;
+  font-size: 16px;
+  color: hsl(217, 19%, 35%)
+}
+
+.description {
+  color: hsl(212, 23%, 69%);
+  font-size: 11px;
+  position: relative;
+  top: -5px;
 }
