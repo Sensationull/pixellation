@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-img {
+.drawer-picture {
   height: 240px;
   width: 240px;
   border-radius: 10px 0px 0px 10px;
@@ -57,4 +57,48 @@ img {
   font-size: 11px;
   position: relative;
   top: -5px;
+}
+
+.user-info {
+  display: flex;
+  height: 30px;
+  width: 285px;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.user-content {
+  width: 450px;
+}
+
+.user-name {
+  color: hsl(217, 19%, 35%);
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+
+.date-posted {
+  color: hsl(212, 23%, 69%);
+  font-size: 10px;
+}
+
+.circle {
+  position: relative;
+  top: 2px;
+  left: 21px;
+  width: 60px;
+  height: 29px;
+  background-color:hsl(210, 46%, 95%);
+  border-radius: 25px;
+}
+
+.arrow {
+  position: relative;
+  top: 2px;
+  left: 7px;
 }
