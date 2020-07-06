@@ -102,3 +102,23 @@
   top: 2px;
   left: 7px;
 }
+
+.share-modal {
+  width: 245px;
+  height: 50px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 5px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* 95 60 */
+}
+
+.spread-title {
+  width: 60px;
+}
+
+.share-icons {
+  border: 2px solid red;
+  color: black;
+}
