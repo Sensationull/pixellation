@@ -104,7 +104,10 @@
 }
 
 .share-modal {
-  width: 245px;
+  position: relative;
+  bottom: 136px;
+  left: 256px;
+  width: 240px;
   height: 50px;
   background-color: hsl(217, 19%, 35%);
   border-radius: 5px;
@@ -120,6 +123,16 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   color: hsl(212, 23%, 69%);
+}
+
+.square {
+  position:relative;
+  width: 20px;
+  height: 20px;
+  background-color: hsl(217, 19%, 35%);
+  top: 25px;
+  right: 95px;
+  transform: rotate(45deg);
 }
 
 /* .share-icons {
