@@ -104,6 +104,7 @@
 }
 
 .share-modal {
+  visibility: hidden;
   position: relative;
   bottom: 136px;
   left: 256px;
