@@ -12,7 +12,8 @@
   --button-color: hsl(180, 66%, 49%);
   --body-color: hsl(0, 0%, 75%);
   --s2-color: #eff1f7;
-  --shorten-color: hsl(260, 8%, 14%);
+  --shorten-color: hsl(255, 11%, 22%);
+  --footer-color: hsl(260, 8%, 14%);
 }
 /* REM declarations */
 html {
@@ -22,7 +23,6 @@ html {
 /* It's like the folds of a newspaper, the whole shebang */
 .fold-container {
   display: flex;
-  /* border: 0.1rem solid black; */
   overflow-x: hidden;
   flex-flow: column nowrap;
   position: relative;
@@ -37,15 +37,10 @@ html {
   max-width: 1440px;
 }
 
-.section-one {
-  /* border: 0.1rem solid red; */
-}
-
 .navigation {
   display: flex;
   height: 5rem;
   width: 60rem;
-  /* border: 0.1rem solid dodgerblue; */
 }
 
 .navigation ul {
@@ -56,7 +51,6 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* border: 0.1rem solid palevioletred; */
   width: 51rem;
 }
 
@@ -75,7 +69,6 @@ a {
 
 .login-container {
   display: flex;
-  /* border: 0.1rem solid purple; */
   align-items: center;
   justify-content: center;
   width: 9rem;
@@ -108,7 +101,6 @@ a {
   margin-top: 1rem;
   height: 65vh;
   width: 60rem;
-  /* border: 0.1rem solid dodgerblue; */
 }
 
 .main-info img {
@@ -121,23 +113,19 @@ a {
 .main-content {
   display: flex;
   flex-direction: column;
-  /* border: 0.1rem solid palegreen; */
   margin-top: 3rem;
   padding: 0rem 2rem 0rem 2rem;
 }
 
 .big-title {
-  /* padding: 0rem 2rem 0rem 2rem; */
   width: 31rem;
   height: 8rem;
   font-size: 3.5rem;
   line-height: 4rem;
-  /* border: 0.1rem solid palevioletred; */
 }
 
 .sub-title {
   color: var(--body-color);
-  /* border: 0.1rem solid palevioletred; */
   width: 27rem;
   margin-bottom: 1rem;
 }
@@ -145,7 +133,7 @@ a {
 .get-started {
   font-family: var(--font-fam);
   font-weight: var(--bold-weight);
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   background-color: var(--button-color);
   color: white;
   height: 2.7rem;
@@ -158,8 +146,9 @@ a {
 
 .shorten-container {
   position: absolute;
+  overflow: hidden;
   left: 2rem;
-  bottom: 29.2rem;
+  bottom: 59.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,7 +194,6 @@ a {
 
 .section-two {
   display: flex;
-  border: 0.1rem solid black;
   background-color: var(--s2-color);
   align-items: center;
 }
@@ -216,7 +204,6 @@ a {
   padding: 1rem;
   margin: 5rem auto 0rem auto;
   flex-flow: column;
-  /* border: 0.1rem solid red; */
 }
 
 .section-two-header .sub-title {
@@ -295,3 +282,75 @@ a {
 }
 
 /* Call to action section */
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13rem;
+  background-color: var(--shorten-color);
+}
+
+.call-to-action img {
+  height: 13rem;
+}
+
+.cta-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.cta-field h1 {
+  font-size: 2rem;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+/* Footer info */
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  height: 17rem;
+  background-color: var(--footer-color);
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.footer h2 {
+  width: 12rem;
+}
+
+.footer h2,
+.column-title {
+  color: white;
+}
+
+.company-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60rem;
+}
+
+.company-content .title {
+  position: relative;
+  bottom: 2rem;
+}
+
+.company-info {
+  display: flex;
+  position: relative;
+  left: 12rem;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.column-title {
+  padding-right: 3rem;
+}
+.column-title ul {
+  list-style: none;
+  color: var(--body-color);
+}
