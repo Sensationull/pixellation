@@ -1,9 +1,10 @@
+/* CSS RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* CSS Variables */
 :root {
   --font-fam: "Poppins", sans-serif;
   --bold-weight: 700;
@@ -13,12 +14,12 @@
   --s2-color: #eff1f7;
   --shorten-color: hsl(260, 8%, 14%);
 }
-
+/* REM declarations */
 html {
   font-size: 18px;
   font-family: var(--font-fam);
 }
-
+/* It's like the folds of a newspaper, the whole shebang */
 .fold-container {
   display: flex;
   /* border: 0.1rem solid black; */
@@ -37,7 +38,7 @@ html {
 }
 
 .section-one {
-  border: 0.1rem solid red;
+  /* border: 0.1rem solid red; */
 }
 
 .navigation {
@@ -153,10 +154,7 @@ a {
   border: none;
 }
 
-.section-two {
-  border: 0.1rem solid yellow;
-  background-color: var(--s2-color);
-}
+/* URL shortening input field and container*/
 
 .shorten-container {
   position: absolute;
@@ -184,7 +182,6 @@ a {
 
 .shorten-container .shorten-field {
   display: flex;
-
   position: absolute;
 }
 .shorten-container img {
@@ -203,3 +200,98 @@ a {
   border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
   border: none;
 }
+
+/* Section Two components */
+
+.section-two {
+  display: flex;
+  border: 0.1rem solid black;
+  background-color: var(--s2-color);
+  align-items: center;
+}
+
+.section-two-header {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  margin: 5rem auto 0rem auto;
+  flex-flow: column;
+  /* border: 0.1rem solid red; */
+}
+
+.section-two-header .sub-title {
+  font-size: 0.9rem;
+}
+
+.section-two-header .title {
+  font-size: 1.9rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  height: 16rem;
+}
+
+.card {
+  padding: 1.5rem;
+  width: 18rem;
+  height: 14rem;
+  background-color: white;
+  border-radius: 0.7rem;
+}
+
+.card-1 {
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+.card-2 {
+  margin-top: 2rem;
+}
+.card-3 {
+  position: relative;
+  top: 4rem;
+}
+
+.illustration-circle {
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--shorten-color);
+  border-radius: 5rem;
+}
+
+.illustration-circle img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.card-content {
+  position: relative;
+  bottom: 2rem;
+}
+
+.card .title {
+  font-size: 1.2rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.card p {
+  color: var(--body-color);
+  font-size: 0.75rem;
+}
+
+.cyan-box {
+  position: relative;
+  top: 9rem;
+  width: 4rem;
+  height: 0.5rem;
+  background-color: var(--button-color);
+}
+
+/* Call to action section */
